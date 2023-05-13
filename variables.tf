@@ -23,7 +23,7 @@ variable "public_subnets" {
 
 variable "enable_nat_gateway" {
   type    = bool
-  default = true
+  default = false
 }
 
 variable "single_nat_gateway" {
